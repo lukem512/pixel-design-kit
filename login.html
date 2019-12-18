@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Please sign in</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary: #E09421;
+        --light: white;
+        --dark: #170E00;
+        --background: #FFF9F0;
+        --box: #E8E2D8;
+        --border: #A39C91;
+      }
+      
+      body {
+        color: var(--dark);
+        background-color: var(--background);
+        font-family: "Montserrat", arial, sans-serif;
+      }
+      
+      .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4rem;
+      }
+      
+      .inner-container {
+        width: 25vw;
+      }
+      
+      .box {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        background-color: var(--box);
+        margin: 0.5rem 0;
+      }
+      
+      .title {
+        color: var(--primary);
+        font-size: 1.2rem;
+      }
+      
+      .small {
+        font-size: 0.7rem;
+      }
+      
+      .extra-small {
+        font-size: 0.55rem;
+      }
+      
+      .center {
+        display: flex;
+        justify-content: center;
+      }
+      
+      label {
+        margin-bottom: 0.3rem;
+      }
+      
+      input {
+        border: none;
+        box-shadow: 0.2rem 0.2rem 0 0 var(--border);
+        margin-bottom: 1rem;
+        padding: 0.3rem;
+        transition: all 0.1s ease-in;
+        font-family: "Montserrat", arial, sans-serif;
+      }
+      
+      input:focus {
+        box-shadow: 0.2rem 0.2rem 0 0 var(--primary);
+        outline: none;
+      }
+      
+      button {
+        border: none;
+        box-shadow: 0.2rem 0.2rem 0 0 var(--border);
+        padding: 0.5rem 3rem;
+        color: white;
+        background-color: var(--primary);
+        cursor: pointer;
+        width: fit-content;
+        transition: all 0.1s ease-in;
+      }
+      
+      button:hover {
+        transform: scale(1.05);
+      }
+      
+      a {
+        color: var(--dark);
+        transition: all 0.1s ease-in;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: var(--primary);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <div class="title">
+          Please sign in.
+        </div>
+        
+        <div class="box">
+          <label class="small" for="email">Email</label>
+          <input id="email" type="text"></input>
+          <label class="small" for="password">Password</label>
+          <input id="password" type="password"></input>
+          <div class="center">
+            <button>Sign in</button>
+          </div>
+        </div>
+        
+        <div class="forgot-password extra-small center">
+          <a href="#">Forgotten your password?</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
