@@ -1,0 +1,12 @@
+a {
+    color: var(--dark);
+    transition: all 0.1s ease-in;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+  
+a:hover {
+  color: var(--primary);
+  text-decoration: none;
+}

@@ -1,0 +1,34 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Margin classes */
+
+.mr {
+    margin-right: 1rem;
+}
+
+.ml {
+    margin-left: 1rem;
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+.mt {
+    margin-top: 1rem;
+}
+
+/* Flexbox-based positioning classes */
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}

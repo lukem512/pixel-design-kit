@@ -1,0 +1,11 @@
+input[type='radio'] {
+    box-shadow: none;
+}
+
+input[type='radio']:hover {
+    box-shadow: none;
+}
+
+input[type='radio']:focus {
+    box-shadow: none;
+}

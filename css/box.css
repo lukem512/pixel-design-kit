@@ -1,0 +1,7 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--background-box);
+    margin: 0.5rem 0;
+}

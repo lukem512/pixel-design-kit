@@ -1,0 +1,45 @@
+:root {
+   /* Primary theme colour */
+   --primary: #E09421;
+
+   /* Status colours, used in message boxes and buttons */
+   --info: blue;
+   --warning: yellow;
+   --error: red;
+   --success: green;
+   
+   /* Light colour, used for component backgrounds */
+   --light: white;
+
+   /* Dark colour, used for text colouring */
+   --dark: #170E00;
+
+   /* Main background colour */
+   --background: #FFF9F0;
+
+   /* Box background colour */
+   --background-box: #E8E2D8;
+
+   /* Border/shadow colour */
+   --border: #A39C91;
+
+   /* Font choice. You will have to import this separately
+      if it is not a standard web font */
+   --font: "Montserrat", arial, sans-serif;
+
+   /* Font sizes. These are accessible via their respective
+      class names, i.e. "small" */
+   --font-size-extra-large: 1.2rem;
+   --font-size-large: 1.1rem;
+   --font-size-medium: 1rem;
+   --font-size-small: 0.7rem;
+   --font-size-extra-small: 0.55rem;
+
+   /* Box shadow size and distribution */
+   --box-shadow: 0.2rem 0.2rem 0 0 var(--border);
+   --box-shadow-primary: 0.2rem 0.2rem 0 0 var(--primary);
+
+   /* Standard margin */
+   --margin: 1rem;
+   --margin-small: 0.5rem;
+}

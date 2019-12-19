@@ -1,0 +1,61 @@
+button,
+input[type='submit'] {
+    border: none;
+    box-shadow: var(--box-shadow);
+    padding: 0.5rem 3rem;
+    color: var(--dark);
+    background-color: var(--light);
+    cursor: pointer;
+    width: fit-content;
+    transition: all 0.1s ease-in;
+    margin-bottom: var(--margin);
+    font: var(--font);
+}
+  
+button:hover,
+input[type='submit']:hover {
+    transform: scale(1.05);
+}
+
+button:focus,
+input[type='submit']:focus {
+    outline: none;
+    box-shadow: var(--box-shadow-primary);
+}
+
+/* Primary button style. Filled with block, primary
+   colour */
+button[primary],
+input[type='submit'][primary] {
+    color: var(--light) !important;
+    background-color: var(--primary) !important;
+}
+
+button[primary]:focus,
+input[type='submit'][primary]:focus {
+    box-shadow: var(--box-shadow);
+}
+
+/* Success button style */
+button[success],
+input[type='submit'][success] {
+    color: var(--light) !important;
+    background-color: var(--success) !important;
+}
+
+button[success]:focus,
+input[type='submit'][success]:focus {
+    box-shadow: var(--box-shadow);
+}
+
+/* Error button style */
+button[danger],
+input[type='submit'][danger] {
+    color: var(--light) !important;
+    background-color: var(--error) !important;
+}
+
+button[danger]:focus,
+input[type='submit'][danger]:focus {
+    box-shadow: var(--box-shadow);
+}

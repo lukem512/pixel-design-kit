@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Pixel Design Kit - Showcase</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="../pixel.min.css" rel="stylesheet">
+    <style>
+      .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4rem;
+      }
+
+      .inner-container {
+        width: 25vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <div class="title">
+          Pixel Design Kit Showcase
+        </div>
+        
+        <div class="box">
+          <h1>This is a 'box'. It pops out.</h1>
+          <p>
+            With some text beneath it. I'm not sure what to say here, I suppose that
+            lorem ipsum may have been more appropriate, but I will persist, nonetheless.
+          </p>
+        </div>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+
+        <div class="col">
+          <label class="top" for="nameField">Name</label>
+          <input id="nameField" type="text" placeholder="Type your name here"></input>
+        </div>
+
+        <div class="col">
+          <label class="top" for="genderField">Gender</label>
+          <div class="row">
+            <input name="genderField" type="radio" value="male" />
+            <label class="right">Male</label>
+          </div>
+          <div class="row">
+            <input name="genderField" type="radio" value="female" />
+            <label class="right">Female</label>
+          </div>
+          <div class="row">
+            <input name="genderField" type="radio" value="other" />
+            <label class="right">Other</label>
+          </div>
+        </div>
+
+        <div class="col">
+          <label class="top" for="interestsField">Interests</label>
+          <div class="row">
+            <input name="interestsField" type="checkbox" value="boxing" />
+            <label class="right">Boxing</label>
+          </div>
+          <div class="row">
+            <input name="interestsField" type="checkbox" value="cakes" />
+            <label class="right">Cake Decorating</label>
+          </div>
+          <div class="row">
+            <input name="interestsField" type="checkbox" value="mycology" />
+            <label class="right">Mycology</label>
+          </div>
+        </div>
+        
+        <div class="col">
+          <label class="top" for="passwordField">Super secret password</label>
+          <input id="passwordField" type="password"></input>
+        </div>
+
+        <div class="col">
+          <label class="top" for="carField">Select a car</label>
+          <select id="carField">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+          </select>
+
+        <textarea>Some text here.</textarea>
+        </div>
+        
+        <div class="row">
+          <button class="mr">Click me</button>
+          <button primary>Me too!</button>
+        </div>
+
+        <div class="row">
+          <input type="submit" value="Submit button"></input>
+        </div>
+
+        <div class="col">
+          <ol>
+            <li>First item on the agenda</li>
+            <li>The second...</li>
+            <li>The <a>third</a> is a link!</li>
+          </ol>
+        </div>
+
+        <div class="col">
+            <ul>
+              <li>This time the list is unordered</li>
+              <li>How are the bullets?</li>
+              <li>...</li>
+            </ul>
+        </div>
+        
+        <div class="message message-info">This is an informative message. It should not be alarming.</div>
+        <div class="message message-warning">This is a warning about something. It should be noticable.</div>
+        <div class="message message-error">This is an error! It requires immediate action.</div>
+        <div class="message message-success">Good job! Good job. Good job.</div>
+
+        <button success>Make something</button>
+        <button danger>Break something</button>
+      </div>
+    </div>
+  </body>
+</html>

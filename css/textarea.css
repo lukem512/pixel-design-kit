@@ -1,0 +1,12 @@
+textarea {
+    border: none;
+    box-shadow: var(--box-shadow);
+    margin-bottom: var(--margin);
+    padding: var(--margin-small);
+    font-family: var(--font);
+}
+
+textarea:focus {
+    box-shadow: var(--box-shadow-primary);
+    outline: none;
+}

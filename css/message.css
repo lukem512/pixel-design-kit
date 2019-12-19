@@ -1,0 +1,61 @@
+.message {
+    display: flex;
+    text-align: left;
+    margin-bottom: var(--margin);
+    padding-right: var(--margin);
+    border: 0.2rem solid;
+    box-shadow: var(--box-shadow);
+
+    /* The icon is positioned absolutely,
+       within this element. As such, we use
+       padding to position the text correctly,
+       and must set our position to relative. */
+    position: relative;
+    padding-left: 3rem;
+}
+
+.message:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 100%;
+    margin-right: var(--margin);
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('img/arrow.svg');
+}
+
+.message-info {
+    border-color: var(--info);
+}
+
+.message-info.message:before {
+    background-color: var(--info);
+}
+
+.message-warning {
+    border-color: var(--warning);
+}
+
+.message-warning.message:before {
+    background-color: var(--warning);
+}
+
+.message-error {
+    border-color: var(--error);
+}
+
+.message-error.message:before {
+    background-color: var(--error);
+}
+
+.message-success {
+    border-color: var(--success);
+}
+
+.message-success.message:before {
+    background-color: var(--success);
+}
