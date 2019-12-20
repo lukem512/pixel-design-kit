@@ -36,6 +36,18 @@ input[type='submit'][primary]:focus {
     box-shadow: var(--box-shadow);
 }
 
+/* Info button style */
+button[info],
+input[type='submit'][info] {
+    color: var(--dark) !important;
+    background-color: var(--info) !important;
+}
+
+button[info]:focus,
+input[type='submit'][info]:focus {
+    box-shadow: var(--box-shadow);
+}
+
 /* Success button style */
 button[success],
 input[type='submit'][success] {
