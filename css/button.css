@@ -39,7 +39,7 @@ input[type='submit'][primary]:focus {
 /* Success button style */
 button[success],
 input[type='submit'][success] {
-    color: var(--light) !important;
+    color: var(--dark) !important;
     background-color: var(--success) !important;
 }
 
@@ -51,7 +51,7 @@ input[type='submit'][success]:focus {
 /* Error button style */
 button[danger],
 input[type='submit'][danger] {
-    color: var(--light) !important;
+    color: var(--dark) !important;
     background-color: var(--error) !important;
 }
 
