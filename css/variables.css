@@ -3,9 +3,9 @@
    --primary: #E09421;
 
    /* Status colours, used in message boxes and buttons */
-   --info: #7DBBC3; /* alt: 586BA4 or 068D9D or 78C0E0 */
-   --warning: #E5B181; /* F7D488 */
-   --error: #F4B9B2; /* 397367 */
+   --info: #7DBBC3;
+   --warning: #EAD2AC;
+   --error: #F4B9B2;
    --success: #C5EBC3;
    
    /* Light colour, used for component backgrounds */
