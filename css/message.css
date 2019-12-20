@@ -2,8 +2,7 @@
     display: flex;
     text-align: left;
     margin-bottom: var(--margin);
-    padding-right: var(--margin);
-    border: 0.2rem solid;
+    padding: var(--margin);
     box-shadow: var(--box-shadow);
 
     /* The icon is positioned absolutely,
@@ -18,7 +17,7 @@
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0.5rem;
     width: 2rem;
     height: 100%;
     margin-right: var(--margin);
@@ -29,7 +28,7 @@
 }
 
 .message-info {
-    border-color: var(--info);
+    background-color: var(--info);
 }
 
 .message-info.message:before {
@@ -37,7 +36,7 @@
 }
 
 .message-warning {
-    border-color: var(--warning);
+    background-color: var(--warning);
 }
 
 .message-warning.message:before {
@@ -45,7 +44,7 @@
 }
 
 .message-error {
-    border-color: var(--error);
+    background-color: var(--error);
 }
 
 .message-error.message:before {
@@ -53,7 +52,7 @@
 }
 
 .message-success {
-    border-color: var(--success);
+    background-color: var(--success);
 }
 
 .message-success.message:before {
